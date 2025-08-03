@@ -1,0 +1,131 @@
+.project-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #0f172a, #1e293b);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.project-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: #e0e0ff;
+  letter-spacing: 1px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 5rem;
+}
+
+.project-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-info .featured {
+  color: #c084fc;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  opacity: 0.9;
+}
+
+.project-info h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.project-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 1.2rem;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 60px rgba(168, 85, 247, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.glass-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 80px rgba(168, 85, 247, 0.5);
+}
+
+.project-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 16px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 8px 30px rgba(168, 85, 247, 0.3);
+}
+
+.project-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 40px rgba(168, 85, 247, 0.5);
+}
+
+.live-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #c084fc;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.live-link:hover {
+  color: #e9d5ff;
+  border-color: #e9d5ff;
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-heading {
+    font-size: 2.2rem;
+  }
+
+  .glass-box {
+    padding: 1.5rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.6rem;
+  }
+
+  .project-info p {
+    font-size: 0.95rem;
+  }
+}

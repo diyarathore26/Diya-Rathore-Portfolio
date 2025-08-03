@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #111d3a; 
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  z-index: 1000;
+  box-shadow: rgba(180, 166, 166, 0.35) 0px 5px 15px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.diya {
+  color: #828fb9; 
+   font-style: italic;
+}
+
+.rathore {
+  color: #fdf9f9; 
+  font-style: italic;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #00bfff;
+  transition: width 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bfff;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+

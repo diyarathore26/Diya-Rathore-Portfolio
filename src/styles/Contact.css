@@ -1,0 +1,84 @@
+/* Contact.css */
+
+.contact {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.contact-content {
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #e0b3ff;
+  border-bottom: 2px solid #e0b3ff;
+  padding-bottom: 0.5rem;
+}
+
+.contact-content p {
+  font-size: 1rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.contact-details li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.contact-details a {
+  color: #bb86fc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.thank-you {
+  font-style: italic;
+  color: #cfcfcf;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+
+  .contact-details li {
+    font-size: 0.95rem;
+  }
+}
