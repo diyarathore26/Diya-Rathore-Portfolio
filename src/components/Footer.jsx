@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-content">
         <p>
           © {new Date().getFullYear()} Thank you for visiting my portfolio!

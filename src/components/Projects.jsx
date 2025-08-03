@@ -47,7 +47,7 @@ modular, and mobile-friendly layout.`,
 
 function Projects() {
   return (
-    <section className="project-section">
+    <section id="projects" className="project-section">
       <h2 className="project-heading">Projects</h2>
       {projects.map((proj, idx) => (
         <div key={idx} className="project-container">

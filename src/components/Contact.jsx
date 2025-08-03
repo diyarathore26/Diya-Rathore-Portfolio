@@ -15,8 +15,8 @@ function Contact() {
         <ul className="contact-details">
           <li>
             <strong>Email:</strong>{" "}
-            <a href="mailto:diyarathore26@gmail.com">
-              diyarathore26@gmail.com
+            <a href="mailto:rathorediya26@gmail.com">
+              rathorediya26@gmail.com
             </a>
           </li>
          
