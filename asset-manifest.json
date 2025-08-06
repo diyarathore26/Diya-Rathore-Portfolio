@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Diya-Rathore-Portfolio/static/css/main.7d4b14f8.css",
+    "main.js": "/Diya-Rathore-Portfolio/static/js/main.0adf6738.js",
+    "static/js/453.a81c888a.chunk.js": "/Diya-Rathore-Portfolio/static/js/453.a81c888a.chunk.js",
+    "static/media/logo.svg": "/Diya-Rathore-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Diya-Rathore-Portfolio/index.html",
+    "main.7d4b14f8.css.map": "/Diya-Rathore-Portfolio/static/css/main.7d4b14f8.css.map",
+    "main.0adf6738.js.map": "/Diya-Rathore-Portfolio/static/js/main.0adf6738.js.map",
+    "453.a81c888a.chunk.js.map": "/Diya-Rathore-Portfolio/static/js/453.a81c888a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d4b14f8.css",
+    "static/js/main.0adf6738.js"
+  ]
+}
