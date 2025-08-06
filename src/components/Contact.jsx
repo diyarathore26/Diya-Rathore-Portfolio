@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="contact-content">
-        <h2>📞 Contact Me</h2>
+        <h2> Contact Me</h2>
         <p>
           I'm actively seeking full-time frontend developer opportunities and
           open to freelance or collaboration projects. Feel free to reach out
@@ -15,11 +15,9 @@ function Contact() {
         <ul className="contact-details">
           <li>
             <strong>Email:</strong>{" "}
-            <a href="mailto:rathorediya26@gmail.com">
-              rathorediya26@gmail.com
-            </a>
+            <a href="mailto:rathorediya26@gmail.com">rathorediya26@gmail.com</a>
           </li>
-         
+
           <li>
             <strong>GitHub:</strong>{" "}
             <a
@@ -33,17 +31,14 @@ function Contact() {
           <li>
             <strong>LinkedIn:</strong>{" "}
             <a
-              href="https://www.linkedin.com/in/diyarathore"
+              href="https://www.linkedin.com/in/diya-rathore"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/diyarathore
+              www.linkedin.com/in/diya-rathore
             </a>
           </li>
-          
         </ul>
-
-      
       </div>
     </section>
   );

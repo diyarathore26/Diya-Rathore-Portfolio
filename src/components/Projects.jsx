@@ -34,13 +34,13 @@ arithmetic operations and responsive design.`,
     link: "https://your-calculator-link.com",
   },
   {
-    title: "Diya Rathore – Portfolio Website",
+    title: "Diya Rathore  Portfolio Website",
     description: `A personal portfolio showcasing my frontend skills with a modern,
 modular, and mobile-friendly layout.`,
     features:
       "Resume download, smooth scroll, React components, mobile-first design.",
     stack: "React.js, CSS3, JSX, GitHub Pages",
-    image: "/project/forest.png",
+    image: "/project/portfolio.png",
     link: "https://your-portfolio-link.com",
   },
 ];
